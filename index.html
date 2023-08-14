@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homethreads</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+</head>
+<body>
+    
+    <section class="sections">        
+        <div class="perks"> 
+            <div class="perk">                
+                    <div class="text-home-threads">
+                        <header class="header">
+                            <div class="sidebar">
+                                <div class="content">
+                                    <div class="sidebar-button">  
+                                        <img class="menu-logo" src="/html/menu.png" />                                   
+                                    </div>
+                                    
+                                    <div class="sidebar-content hidde">
+                                        <a class="logo">
+                                            <h2>HomethReads</h2>
+                                        </a>
+                                        <ul class="menu">
+                                            <li><a href="#h1">Homethreads</a></li>
+                                            <li><a href="#image-perk-enjoy">Enjoy....</a></li>
+                                            <li><a href="#membership-perks">Membership perks</a></li>
+                                            <li><a href="#text-let-us-help">Let us help</a></li>
+                                        </ul>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </header>
+                        <h1 id="h1">
+                            <strong>HOMETHREADS</strong> :trade program
+                        </h1>
+                        <p> We believe that relationships are the foundation for our success.We pair
+                        unparalleled customer service with an easy-to-use shopping experience to help
+                        bring your designs to life.</p>
+                        <button class="boton">SIGN UP</button>  
+                    </div>                
+                    <div class="image-perk-topRight">
+                    </div>                 
+            </div>
+            <div class="">
+                <div>
+                <div class="membership-perks" id="membership-perks">
+                    <div class="">
+                        <h2>Membership perks</h2>
+                    </div>                    
+                    <div class="line">
+                        <h4>Competitive pricing </h4> 
+                        <p>Enjoy special members-only pricing across our entire fleet of brands.</p>                                       
+                    </div>                
+                    <div class="line">
+                        <h4>Project rollout capabilities</h4> 
+                        <p>With both in-stock products and custom solutions,we can accommodate projects large or small.</p>
+                    </div>
+                    <div class="">
+                        <h4>Dedicated support</h4> 
+                        <p>Get help with product information, quotes, order placement, installation and more.</p>
+                    </div>
+                </div> 
+            </div>             
+
+            </div>
+            <div class="perk">  
+                <div class="image-perk-enjoy" id="image-perk-enjoy">                        
+                </div>
+                <div class="text-enjoy">
+                    <h2>Enjoy members-only benefits</h2>
+                    <li>Exclusive discount across our fleet of brands,starting at 20% off</li>
+                    <li>Tax-exempt purchasing online and in stores</li>
+                    <li>No minimum quantities</li>
+                </div>                      
+            </div>
+            <div class="perk">                
+                    <div class="text-let-us-help" id="text-let-us-help">
+                        <h2>Let us help you</h2>
+                        <li>Product information, inventory availability and swatch requests</li>
+                        <li>Order placement, tracking and project management</li>
+                        <li>Private shopping for you and ypur client</li>
+                        <li>Installation support upon request</li>
+                    </div>
+                    <div class="image-perk-botton-right">                        
+                    </div>
+            </div>            
+        </div>
+    </section>
+    <script type="text/javascript">
+        var sidebarButton = document.querySelector(".sidebar-button");
+        sidebarButton.onclick = () => {
+            var sidebarContent = document.querySelector(".sidebar-content");
+            (sidebarContent.classList.contains("hidde"))?
+            sidebarContent.classList.remove("hidde") :
+            sidebarContent.classList.add("hidde");
+        }
+    </script>
+</body>
+</html>

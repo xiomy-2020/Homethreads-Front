@@ -1,0 +1,150 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }    
+  h1{
+    font-size: 31px;
+  } 
+  h2{
+    font-size: 25px;
+  }
+  h5{
+    font-size: 24px;
+  }
+  strong{
+    letter-spacing: -3px;    
+  }    
+ .perk{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 10px;
+   height: 400px;
+ } 
+ .image-perk-topRight{
+    background-image: url(html/top-right.jpg);
+    background-size: cover;
+  }  
+  .text-home-threads{
+    background-color: #0c5043;
+    color: #f2f2f2; 
+    padding: 50px 50px;  
+  }
+  .text-home-threads > h1 > strong{
+    padding: 0px 10px;
+  }
+  .text-home-threads >p{
+    line-height: 20px;
+    align-items: start;
+  }
+  .membership-perks {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding:40px 0px 40px 0px;
+  }
+  .membership-perks > div{
+    padding: 30px;
+  }
+  .membership-perks >div > h2{
+    padding: 0px 20px 0px;
+  }
+  .text-enjoy{
+    text-align: start;    
+    margin-left: 50px; 
+    line-height: 20px;
+  }  
+  .text-enjoy >h2{
+    padding: 100px 300px 20px 0px;
+    line-height: 30px;
+  }
+  .image-perk-enjoy{
+    background-image: url(html/enjoy.jpg);
+    background-size: cover;
+    height: 400px;
+  }
+.boton{
+    padding: 15px;
+    width: 400px;
+    border: none;
+    color: #000;
+    border-radius: 20px ;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ } 
+ .line{
+    border-right: 0.5px solid #f3f3f3;
+ }
+h2,h4,p{
+    margin: 10px;
+} 
+.text-let-us-help{
+ padding: 150px 100px 20px 100px;
+ line-height: 20px;
+}
+.image-perk-botton-right{
+  background-image: url(html/bottom-right.jpg);
+  background-size: cover;
+  margin: 10px 0px 0px 50px;  
+}
+
+.hidde{
+  display: none;
+
+}
+  
+  @media screen and (max-width: 764px) {  
+    .perk{
+      grid-template-columns: 1fr; 
+      margin: 0px 0px 0px 0px;
+     }
+    .text-home-threads{
+      line-height: 20px;
+      align-items: start;
+    } 
+    .boton{
+      padding: 10px;
+      width: 200px;
+      border: none;
+      color: #000;
+      border-radius: 20px ;
+      text-decoration: none;
+    }     
+    .membership-perks{             
+      grid-template-columns: 1fr 1fr;
+      margin-top: 200px;        
+    }     
+    .membership-perks > div{         
+      margin:0px 10px;
+      padding: 0px;
+    }   
+    .membership-perks >div > h2{
+      margin-left: 0;
+    } 
+    .line{
+      border: 0px ;
+    }
+    .text-enjoy{
+      text-align: start;
+    }    
+    .text-enjoy >h2{
+      padding: 10px;      
+    }
+    .text-let-us-help{
+      position: absolute;
+      padding: 30px;
+      margin: 300px 0px 10px 50px;
+    } 
+    .image-perk-botton-right{
+      margin:30px 0px;
+    }   
+     
+     .image-perk-topRight, 
+     .image-perk-enjoy, 
+     .image-perk-botton-right{
+      height: 300px;
+     }
+      
+}
